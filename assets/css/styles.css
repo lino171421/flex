@@ -1,0 +1,109 @@
+body {
+  margin: 0px;
+}
+menu {
+  padding-inline-start: 0%;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  padding: 0%;
+  margin-top: 0px;
+}
+ul li {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-color: #bec1bb;
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+}
+ul li:hover {
+  cursor: pointer;
+}
+.img-thumbnail {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #000;
+}
+.contacto {
+  display: flex;
+}
+.maria {
+  justify-content: start;
+  align-content: flex-start;
+  margin: 0px;
+  padding: 10px;
+}
+.Grisposicionamiento {
+  color: #828485;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  font-size: 15px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+  color: #828485;
+}
+.fa-regular.fa-message {
+  padding: 5px;
+}
+.fa-solid.fa-bars {
+  padding: 5px;
+}
+.boton {
+  background-color: #a491d2;
+  padding: 6px 45px;
+  color: white;
+  font-size: 18px;
+}
+.name {
+  display: block;
+  justify-content: start;
+  align-content: flex-start;
+  margin: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding: 8px;
+  padding-left: 0px;
+  font-size: 15px;
+}
+.apretonytexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+}
+.todito {
+  display: flex;
+}
+.apreton {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+}
